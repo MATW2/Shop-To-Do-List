@@ -29,7 +29,7 @@ The user interface is designed using the Swing library, ensuring simplicity, cla
   <li>Open the project in your favorite Java environment (e.g., Eclipse, IntelliJ).</li>
   <li>Set up a database connection, e.g., using XAMPP.</li>
   <li>Build and run the project, including the Server and ClientGUI classes.</li>
-  <li>Start performing calculations using the Java Calculator!</li>
+  <li>Start performing operations with Java!</li>
 </ul>
 
 <h2>Contributions:</h2>
