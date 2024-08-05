@@ -45,7 +45,7 @@ public class ClientGui extends AbstractClientGui {
     private void initTable() {
         tableModel.addColumn("#");
         tableModel.addColumn("Nazwa");
-        tableModel.addColumn("ILOŚĆ");
+        tableModel.addColumn("Ilość");
         tableModel.addColumn("Cena");
         READ_PRODUCT.start();
     }

@@ -42,7 +42,7 @@ public class EditProduct extends AbstractEditProduct {
 
                     writer.println("edit" + ";" + id + ";" + newName + ";" + newQuantity + ";" + newPrice);
                     JOptionPane.showMessageDialog( clientGui, reader.readLine());
-                    READ_PRODUCT.start();
+                    readProduct();
                 } else {
                     JOptionPane.showMessageDialog( clientGui, "<html>Baza danych jest: <b>Nieaktywna</b> <br> Nie udało się połąnczyć.</html>");
                 }

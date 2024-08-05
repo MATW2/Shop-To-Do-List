@@ -29,7 +29,7 @@ public class DeleteProduct extends AbstractDeleteProduct {
                     String name = (String) clientGui.getTable().getValueAt(selectedRow, 1);
                     writer.println("delete" + ";" + id );
                     JOptionPane.showMessageDialog(clientGui, reader.readLine() + name);
-                    READ_PRODUCT.start();
+                    readProduct();
                 } else {
                     JOptionPane.showMessageDialog(clientGui, "<html>Baza danych jest: <b>Nieaktywna</b> <br> Nie udało się połąnczyć.</html>");
                 }

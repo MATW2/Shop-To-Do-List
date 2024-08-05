@@ -35,7 +35,7 @@ public class AddProduct extends AbstractAddProduct {
 
                 writer.println("add" + ";" + name + ";" + quantity + ";" + price);
                 JOptionPane.showMessageDialog(clientGui, reader.readLine());
-                READ_PRODUCT.start();
+                readProduct();
             } else {
                 JOptionPane.showMessageDialog(clientGui, "<html>Baza danych jest: <b>Nieaktywna</b> <br> Nie udało się połąnczyć.</html>");
             }
